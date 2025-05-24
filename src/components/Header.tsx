@@ -48,7 +48,7 @@ const Header = () => {
           {/*================= TOGGLE THEME BUTTON =================*/}
           <button onClick={toggleTheme}>
             <img
-              src={isDark ? iconMoon : iconSun}
+              src={isDark ? iconSun : iconMoon}
               alt="Theme Toggle"
               className="bg-neutral-600 p-1.5 rounded-lg w-8 transition-colors duration-200 hover:bg-neutral-600/70"
               role="theme-toggler"
