@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /*================= COLORS =================*/
+  /* Neutral */
+  --color-neutral-900: hsl(227, 75%, 14%);
+  --color-neutral-800: hsl(226, 25%, 17%);
+  --color-neutral-700: hsl(225, 23%, 24%);
+  --color-neutral-600: hsl(226, 11%, 37%);
+  --color-neutral-300: hsl(0, 0%, 78%);
+  --color-neutral-200: #e8f8ec;
+  --color-neutral-100: hsl(0, 0%, 93%);
+  --color-neutral-0: hsl(200, 60%, 99%);
+
+  /* Red */
+  --color-400: hsl(3, 86%, 64%);
+  --color-500: hsl(3, 71%, 56%);
+  --color-700: hsl(3, 77%, 44%);
+
+  /* Gradients */
+  --color-gradient-light: linear-gradient(180deg, #ebf2fc 0%, #eef8f9 100%);
+  --color-gradient-dark: linear-gradient(180deg, #040918 0%, #091540 100%);
+
+  /*================= FONTS =================*/
+  --font-openSans: "Open Sans", sans-serif;
+}
+
+body {
+  @apply min-h-screen bg-gradient-to-b from-white via-slate-300 to-blue-400 dark:bg-gradient-to-b dark:from-[#040918] dark:via-[#0a1232] dark:to-[#091540] text-black dark:text-neutral-0 overflow-x-hidden transition-colors duration-300;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
