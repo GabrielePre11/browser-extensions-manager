@@ -1,8 +1,8 @@
 //================= HOOKS & ICONS =================//
 import { useEffect, useState } from "react";
-import logo from "../assets/images/logo.svg";
-import iconMoon from "../assets/images/icon-moon.svg";
-import iconSun from "../assets/images/icon-sun.svg";
+import logo from "/images/logo.svg";
+import iconMoon from "/images/icon-moon.svg";
+import iconSun from "/images/icon-sun.svg";
 
 //================= HEADER COMPONENT =================//
 const Header = () => {
