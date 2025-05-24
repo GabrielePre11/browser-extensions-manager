@@ -4,8 +4,7 @@ Progetto realizzato in React, TypeScript e TailwindCSS v4 per esercitarmi con da
 
 ## 📌 Challenge
 
-[Browser Extension Manager UI](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp) – Una UI moderna per la gestione di estensioni browser, con design fornito e richieste specifiche in termini di funzionalità.
-🔗 Challenge: https://www.frontendmentor.io/solutions/browser-extension-manager-ui-klY1UDMHAI
+[Browser Extension Manager UI](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp) – Una UI moderna per la gestione di estensioni browser, con design fornito e richieste specifiche in termini di funzionalità. 🔗 Challenge: https://www.frontendmentor.io/solutions/browser-extension-manager-ui-klY1UDMHAI
 
 ## 🚀 Funzionalità principali
 
